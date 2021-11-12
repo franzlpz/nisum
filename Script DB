@@ -1,0 +1,22 @@
+CREATE TABLE users (
+	id varchar NOT NULL,
+	"name" varchar NOT NULL,
+	email varchar NOT NULL,
+	"password" varchar NOT NULL,
+	is_active bool NULL,
+	created_at date NULL,
+	modified_at date NULL,
+	last_login date NULL,
+	CONSTRAINT users_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE phones (
+	id varchar NOT NULL,
+	"number" int NOT NULL,
+	city_code varchar NOT NULL,
+	country_code varchar NOT NULL,
+	active bool NULL,
+	user_id varchar NOT NULL,
+	CONSTRAINT phones_pk PRIMARY KEY (id),
+	CONSTRAINT phones_fk FOREIGN KEY (user_id) REFERENCES users(id)
+);
