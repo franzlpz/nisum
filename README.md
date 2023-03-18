@@ -8,4 +8,3 @@ API que permite la consulta de usuarios y sus telefonos!
 
 3. Se incluye lista de telefonos para la validacion de la insercion de usuario con el mismo.
 
-
