@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.Utils;
+package com.nisum.api.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

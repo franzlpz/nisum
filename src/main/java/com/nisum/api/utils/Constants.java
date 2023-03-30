@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.Utils;
+package com.nisum.api.utils;
 
 public class Constants {
 	public static final String REQUIRED = "Elemento obligatorio";
@@ -15,4 +15,8 @@ public class Constants {
 					"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f" +
 					"]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
 	public static final String PASSWORD_REGEX = "(^[A-Z])([a-z]+)(\\d{2})";
+	public static final String INVALID_EMAIL = "Email invalido";
+	public static final String SISE_PASSWORD = "Debe tener como minimo 8 caracteres";
+	public static final String INVALID_PASSWORD = "Password invalido" ;
+	public static final String REQUIRED_FIELDS = "Campos obligatorios";
 }

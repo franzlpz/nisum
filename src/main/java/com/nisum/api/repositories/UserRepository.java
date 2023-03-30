@@ -1,6 +1,6 @@
-package com.nisum.api.infrastructure.data.repositories;
+package com.nisum.api.repositories;
 
-import com.nisum.api.infrastructure.data.models.User;
+import com.nisum.api.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

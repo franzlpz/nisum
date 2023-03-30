@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.http;
+package com.nisum.api.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

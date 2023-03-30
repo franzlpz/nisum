@@ -1,10 +1,12 @@
-package com.nisum.api.infrastructure.data.dtos;
+package com.nisum.api.dtos;
 
-import com.nisum.api.infrastructure.Utils.Constants;
+import com.nisum.api.utils.Constants;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
@@ -19,6 +21,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginDto implements Serializable {
-	@NotNull(message = Constants.REQUIRED)
+	@NotEmpty(message = Constants.REQUIRED)
+	@Email(message = Constants.INVALID_EMAIL, regexp = Constants.EMAIL_REGEX)
 	private String email;
 }

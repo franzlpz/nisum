@@ -1,8 +1,8 @@
 package com.nisum.api.services.impl;
 
-import com.nisum.api.infrastructure.data.dtos.PhoneDto;
-import com.nisum.api.infrastructure.data.models.Phone;
-import com.nisum.api.infrastructure.data.repositories.PhoneRepository;
+import com.nisum.api.dtos.PhoneDto;
+import com.nisum.api.models.Phone;
+import com.nisum.api.repositories.PhoneRepository;
 import com.nisum.api.services.PhoneService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

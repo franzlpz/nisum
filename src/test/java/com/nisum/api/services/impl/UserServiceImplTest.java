@@ -1,9 +1,9 @@
 package com.nisum.api.services.impl;
 
-import com.nisum.api.infrastructure.data.models.Phone;
-import com.nisum.api.infrastructure.data.models.User;
-import com.nisum.api.infrastructure.data.repositories.PhoneRepository;
-import com.nisum.api.infrastructure.data.repositories.UserRepository;
+import com.nisum.api.models.Phone;
+import com.nisum.api.models.User;
+import com.nisum.api.repositories.PhoneRepository;
+import com.nisum.api.repositories.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

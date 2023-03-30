@@ -1,11 +1,11 @@
-package com.nisum.api.infrastructure.data.dtos;
+package com.nisum.api.dtos;
 
-import com.nisum.api.infrastructure.Utils.Constants;
+import com.nisum.api.utils.Constants;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
@@ -21,14 +21,14 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class PhoneDto implements Serializable {
 	private String id;
-	@NotNull(message = Constants.REQUIRED)
+	@NotEmpty(message = Constants.REQUIRED)
 	@Size(min = 7, message = Constants.SISE_PHONE)
 	private int number;
-	@NotNull(message = Constants.REQUIRED)
+	@NotEmpty(message = Constants.REQUIRED)
 	private String cityCode;
-	@NotNull(message = Constants.REQUIRED)
+	@NotEmpty(message = Constants.REQUIRED)
 	private String countryCode;
-	@NotNull(message = Constants.REQUIRED)
+	@NotEmpty(message = Constants.REQUIRED)
 	private boolean isActive;
 
 }

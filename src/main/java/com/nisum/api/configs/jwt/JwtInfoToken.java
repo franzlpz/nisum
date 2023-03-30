@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.security.jwt;
+package com.nisum.api.configs.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

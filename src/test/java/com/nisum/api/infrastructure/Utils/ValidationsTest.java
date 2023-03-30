@@ -1,5 +1,6 @@
 package com.nisum.api.infrastructure.Utils;
 
+import com.nisum.api.utils.Validations;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;

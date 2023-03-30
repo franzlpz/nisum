@@ -1,11 +1,11 @@
 package com.nisum.api.services.impl;
 
-import com.nisum.api.infrastructure.data.dtos.UserDto;
-import com.nisum.api.infrastructure.data.models.User;
-import com.nisum.api.infrastructure.data.repositories.PhoneRepository;
-import com.nisum.api.infrastructure.data.repositories.UserRepository;
-import com.nisum.api.infrastructure.http.UserResponse;
-import com.nisum.api.infrastructure.security.jwt.JwtInfoToken;
+import com.nisum.api.dtos.UserDto;
+import com.nisum.api.models.User;
+import com.nisum.api.repositories.PhoneRepository;
+import com.nisum.api.repositories.UserRepository;
+import com.nisum.api.utils.UserResponse;
+import com.nisum.api.configs.jwt.JwtInfoToken;
 import com.nisum.api.services.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

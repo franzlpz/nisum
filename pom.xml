@@ -63,12 +63,6 @@
             <scope>compile</scope>
         </dependency>
 
-		<!-- Hateoas - Nivel 3 Richardson -->
-		<dependency>
-			<groupId>org.springframework.hateoas</groupId>
-			<artifactId>spring-hateoas</artifactId>
-		</dependency>
-
 		<!-- OpenAPI  3-->
 		<dependency>
 			<groupId>org.springdoc</groupId>

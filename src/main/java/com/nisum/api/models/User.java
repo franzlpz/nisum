@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.data.models;
+package com.nisum.api.models;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -7,7 +7,6 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 

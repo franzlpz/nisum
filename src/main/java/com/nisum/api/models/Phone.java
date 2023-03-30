@@ -1,4 +1,4 @@
-package com.nisum.api.infrastructure.data.models;
+package com.nisum.api.models;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
